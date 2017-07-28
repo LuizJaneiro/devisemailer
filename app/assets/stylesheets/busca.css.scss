@@ -1,0 +1,72 @@
+.search-box-wrapper{
+  display:inline-flex;
+  font-size:20px;
+}
+
+.search-box-input{
+  width:500px;
+  font-size: inherit;
+    -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  border:0.2em solid #333333;
+  border-radius:0.2em 0 0 0.5em;
+  padding:0.2em;
+  outline: 0;
+  
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.search-box-input:hover,
+.search-box-input:focus{
+  border-color: #207cca;
+
+  -webkit-box-shadow: 0 0 10px rgba(109,207,246,.5);
+  -moz-box-shadow: 0 0 10px rgba(109,207,246,.5);
+  box-shadow: 0 0 10px rgba(109,207,246,.5);
+}
+
+.search-box-button{
+  font-size: inherit;
+  border:0.2em solid #333333;
+  border-radius:0 0.5em 0.5em 0;
+  background-color: #333333;
+  border-left: 0;
+  padding: 0 0.75em;
+  color: white;
+  font-weight: bold;
+  outline: 0;
+  cursor: pointer;
+
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.search-box-button:hover,
+.search-box-button:focus{
+   color: #207cca;
+}
+
+.document-box-button{
+  font-size: inherit;
+  border:0.2em solid #333333;
+  border-radius:0.5em 0.5em 0.5em 0.5em;
+  background-color: #333333;
+  border-left: 0;
+  padding: 0 0.75em;
+  color: white;
+  font-weight: bold;
+  outline: 0;
+  cursor: pointer;
+
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.document-box-button:hover,
+.document-box-button:focus{
+   color: #207cca;
+}

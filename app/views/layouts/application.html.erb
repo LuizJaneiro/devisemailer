@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Devicemailer</title>
+    <title>MatchUp - Encontre os documentos que precisa</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -10,6 +10,7 @@
 
   <body>
     <%= render 'layouts/nav' %>
+    <%= bootstrap_flash %>
     <div class='container'>
       <%= yield %>
     </div>
